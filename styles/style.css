@@ -129,23 +129,33 @@
   .target{
     padding: 0 240px 100px;
   }
-  .facts-box {
+  .target-box {
     margin: 20px 20px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
   }
   .box {
     width: 160px;
-    background-color: rgba(250, 223, 193, 0.584);
     border-radius: 5px;
     padding: 30px 25px;
     text-align: left;
+    margin-left: 30px;
   }
-  
+  .box-color1{
+    background-color: rgba(250, 223, 193, 0.584);
+  }
+  .box-color2{
+    background-color: rgba(193, 193, 251, 0.607);
+  }
+  .box-color3{
+    background-color: rgba(255, 255, 176, 0.566);
+  }
+
   .box-title {
     margin-top: 10px;
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 20px;
   }
   .box-info {
@@ -157,7 +167,7 @@
   .target a{
     font-weight: 800;
     font-size: 13px;
-    color: #727272;
+    color: black;
   }
   
   
