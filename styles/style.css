@@ -111,8 +111,10 @@
   .inspiration{
     display: flex;
     flex-direction: column;
-    
-    
+    justify-content: center;   
+  }
+  .video-section{
+    padding-left: 500px;
   }
   .video-border{
     border: 1px  solid grey;
@@ -127,7 +129,7 @@
 
   /* target section */
   .target{
-    padding: 0 240px 100px;
+    padding: 120px 0px 100px;
   }
   .target-box {
     margin: 20px 20px 20px;
@@ -136,10 +138,11 @@
     
   }
   .box {
-    width: 160px;
+    width: 200px;
     border-radius: 5px;
     padding: 30px 25px;
     text-align: left;
+    margin-top: 20px;
     margin-left: 30px;
   }
   .box-color1{
@@ -169,6 +172,56 @@
     font-size: 13px;
     color: black;
   }
+
+  /* support section */
+  .support {
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    width: 1140px;
+    height: 300px;
+    margin: 0 230px;
+    margin-bottom: 130px;
+  }
+
+  .support-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px 100px 0px;
+    line-height: 40px;
+  }
+  .support-description{
+    color: rgba(234, 234, 234, 0.585);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 100px 30px;
+  }
+  .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .email{
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+  }
+  .btn-submit{
+    border-radius: 8px;
+    border: none;
+  }
+  .login-submit {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 130px;
+    height: 45px;
+  }
+  
   
   
   
