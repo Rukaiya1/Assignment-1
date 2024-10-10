@@ -2,7 +2,7 @@
     margin: 0;
     font-family: "Work Sans", sans-serif;
     padding: 0;
-    background-color: white;
+    
   }
 /* header section */
   .header-section {
@@ -124,5 +124,41 @@
     display: flex;
     justify-content: center;
   }
+
+  /* target section */
+  .target{
+    padding: 0 240px 100px;
+  }
+  .facts-box {
+    margin: 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box {
+    width: 160px;
+    background-color: rgba(250, 223, 193, 0.584);
+    border-radius: 5px;
+    padding: 30px 25px;
+    text-align: left;
+  }
+  
+  .box-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .box-info {
+    font-weight: 600;
+    font-size: 12px;
+    color: #727272;
+    margin-bottom: 10px;
+  }
+  .target a{
+    font-weight: 800;
+    font-size: 13px;
+    color: #727272;
+  }
+  
   
   
