@@ -223,7 +223,7 @@
   }
   
   /* footer section */
-  .footer{
+  #footer{
     background-color: aliceblue;
     padding: 50px 150px;
     display: flex;
