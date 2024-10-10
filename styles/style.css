@@ -6,7 +6,7 @@
   }
 /* header section */
   .header-section {
-    margin: 30px 50px;
+    margin: 50px 100px;
     display: flex;
     justify-content: space-between;
   }
@@ -19,8 +19,8 @@
     width: 150px;
     font-weight: 400;
     font-size: 12px;
-    border-radius: 3px;
-    border: 2px solid gray;
+    border-radius: 5px;
+    border: 1px solid gray;
     color: grey;
     padding: 10px;
   }
@@ -222,6 +222,21 @@
     height: 45px;
   }
   
-  
+  /* footer section */
+  .footer{
+    background-color: aliceblue;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #foot-title{
+    font-weight: 600;
+    padding-left: 80px;
+  }
+  .social-media{
+    display: flex;
+    gap: 20px;
+  } 
   
   
