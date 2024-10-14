@@ -106,14 +106,16 @@
   }
 
   .btn-secondary{
-    background-color: white;
-    width: 100px;
-    font-weight: 400;
-    font-size: 12px;
+    background-color: #FFF;
+    width: 150px;
+    font-weight: 600;
+    font-size: 16px;
     border-radius: 3px;
     border: 2px solid gray;
-    color: grey;
-    padding: 6px;
+    color: #0D1321;
+    padding: 8px 3px;
+    cursor: pointer;
+    opacity: 0.7;
   }
 
   /* Inspiration section */
@@ -159,6 +161,7 @@
   }
 
   .box-title {
+    color: #0D1321;
     margin-top: 20px;
     margin-bottom: 15px;
     font-weight: 800;
@@ -175,7 +178,7 @@
   .target a{
     font-weight: 800;
     font-size: 14px;
-    color: black;
+    color: #0D1321;
   }
 
   /* support section */
@@ -199,7 +202,7 @@
   .support-description{
     color:  #FFF;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 28px;
     font-weight: 400;
     text-align: center;
     padding: 10px 100px 25px;
