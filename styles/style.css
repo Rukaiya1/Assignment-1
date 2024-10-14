@@ -1,28 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Azeret Mono", monospace;
     padding: 0;
     
   }
 /* header section */
-  .header-section {
+  .nav-section {
     margin: 50px 100px;
     display: flex;
     justify-content: space-between;
   }
-  .header-title {
-    font-weight: 900;
-    font-size: 45px;
+  .nav-title {
+    font-weight: 700;
+    font-size: 30px;
   }
-  .btn-secondary1{
-    background-color: white;
-    width: 150px;
+  .btn-download{
+    background-color:  #FFF;
+    width: 200px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 5px;
     border: 1px solid gray;
-    color: grey;
-    padding: 10px;
+    color: #0D1321;
+    padding: 15px;
   }
 
   .banner {
@@ -41,18 +43,21 @@
     font-size: 20px;
   }
   .banner-description {
-    color: gray;
+    color: #0D1321;
     text-align: center;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 25px;
     margin: 0px 25px 25px;
+    opacity: 0.7;
   }
   .btn-primary {
     background-color: black;
-    width: 150px;
+    width: 250px;
     height: 55px;
-    font-weight: 400;
-    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     color: white;
@@ -67,14 +72,16 @@
   }
 
   .title {
+    color: #0D1321;
     font-size: 30px;
   margin-bottom: 24px;
   }
   .description {
     font-weight: 400;
   font-size: 16px;
-  color: #727272;
+  color: #0D1321;
   margin-bottom: 32px;
+  opacity: 0.7;
   }
   .Web-main-section{
     margin: 50px 50px 70px;
@@ -84,16 +91,18 @@
     justify-content: center;
   }
   .Web-dev-title {
-    color: rgb(69, 69, 69);
+    color: rgba(13, 19, 33, 0.70);
     font-size: 22px;
     font-weight: 600;
   margin-bottom: 12px;
   }
   .Web-dev-description {
     font-weight: 400;
-  font-size: 12px;
-  color: #727272;
-  margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #0D1321;
+    margin-bottom: 32px;
+    opacity: 0.7;
   }
 
   .btn-secondary{
@@ -111,20 +120,14 @@
   .inspiration{
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;  
   }
   .video-section{
-    padding-left: 500px;
-  }
-  .video-border{
+    margin: 30px 450px;
     border: 1px  solid grey;
-    border-radius: 5px;
+    border-radius: 16px;
     padding: 15px;
-    width: 500px;
-  }
-  .video{
-    display: flex;
-    justify-content: center;
+    max-width: 600px;
   }
 
   /* target section */
@@ -132,44 +135,46 @@
     padding: 120px 0px 100px;
   }
   .target-box {
-    margin: 20px 20px 20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     
   }
   .box {
-    width: 200px;
-    border-radius: 5px;
+    width: 260px;
+    border-radius: 10px;
     padding: 30px 25px;
     text-align: left;
     margin-top: 20px;
     margin-left: 30px;
   }
   .box-color1{
-    background-color: rgba(250, 223, 193, 0.584);
+    background-color: rgba(255, 76, 30, 0.05);
   }
   .box-color2{
-    background-color: rgba(193, 193, 251, 0.607);
+    background-color: rgba(0, 76, 232, 0.05);
   }
   .box-color3{
-    background-color: rgba(255, 255, 176, 0.566);
+    background-color: rgba(255, 223, 0, 0.05);
   }
 
   .box-title {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 15px;
     font-weight: 800;
     font-size: 20px;
   }
   .box-info {
-    font-weight: 600;
-    font-size: 12px;
-    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:  #0D1321;
     margin-bottom: 10px;
+    opacity: 0.7;
   }
   .target a{
     font-weight: 800;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
   }
 
@@ -179,25 +184,26 @@
     background-size: cover;
     border-radius: 10px;
     width: 1140px;
-    height: 300px;
-    margin: 0 230px;
-    margin-bottom: 130px;
+    height: 350px;
+    margin: 0 230px 130px;
   }
 
   .support-title{
-    color: white;
-    font-size: 30px;
+    color:  #FFF;
+    font-size: 32px;
     font-weight: 700;
     text-align: center;
-    padding: 60px 100px 0px;
+    padding: 80px 100px 5px;
     line-height: 40px;
   }
   .support-description{
-    color: rgba(234, 234, 234, 0.585);
-    font-size: 14px;
+    color:  #FFF;
+    font-size: 16px;
+    line-height: 25px;
     font-weight: 400;
     text-align: center;
-    padding: 10px 100px 30px;
+    padding: 10px 100px 25px;
+    opacity: 0.7;
   }
   .login-form {
     display: flex;
@@ -209,29 +215,30 @@
     width: 500px;
     border-radius: 10px;
     border: none;
+    color: (13, 19, 33, 0.40)
   }
   .btn-submit{
     border-radius: 8px;
     border: none;
-  }
-  .login-submit {
     margin-left: 15px;
     font-weight: 600;
     font-size: 18px;
     width: 130px;
-    height: 45px;
+    height: 55px;
   }
+  
   
   /* footer section */
   #footer{
-    background-color: aliceblue;
-    padding: 50px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 40px 150px;
     display: flex;
     justify-content: space-between;
   }
 
   #foot-title{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
     padding-left: 80px;
   }
   .social-media{
